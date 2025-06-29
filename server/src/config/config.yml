@@ -1,0 +1,41 @@
+server:
+  port: 5000
+  host: localhost
+
+environment:
+  - DATABASE_URL=${DATABASE_URL}
+
+ffmpeg:
+  videoCodec: libx264
+  videoBitrate: 2000k
+  audioCodec: aac
+  audioBitrate: 128k
+  frameRate: 30
+  resolution: 1280x720
+
+transitions:
+  enabled: true
+  duration: 0.5
+  type: fade
+
+backgroundMusic:
+  enabled: true
+  file:
+  volume: 0.2
+  fadeIn: 2
+  fadeOut: 2
+
+log:
+  level: info
+  file: ./logs/app.log
+
+storage:
+  paths:
+    basePath: ./storage
+    temp: ./storage/temp
+    videos: ./storage/videos
+    images: ./storage/images
+    speeches: ./storage/speeches
+    music: ./storage/music
+    publicPath: ./client/public/assets
+    json: ./storage/json

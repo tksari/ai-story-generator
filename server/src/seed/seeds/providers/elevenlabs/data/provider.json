@@ -1,0 +1,10 @@
+{
+  "code": "elevenlabs",
+  "name": "Elevenlabs",
+  "description": "",
+  "isActive": true,
+  "apiKey": "",
+  "apiEndpoint": "https://api.elevenlabs.io/v1",
+  "region": "",
+  "config": {}
+}

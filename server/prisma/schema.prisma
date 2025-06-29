@@ -1,0 +1,233 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Story {
+  id               Int              @id @default(autoincrement())
+  title            String
+  description      String?
+  createdAt        DateTime         @default(now()) @map("created_at")
+  updatedAt        DateTime         @default(now()) @updatedAt @map("updated_at")
+  settings         Json?            @default("{}") @map("settings")
+  generationConfig Json?            @default("{}") @map("generation_config")
+  generatedVideos  GeneratedVideo[]
+  jobs             Job[]
+  pages            Page[]
+
+  @@map("stories")
+}
+
+model Page {
+  id                Int              @id @default(autoincrement())
+  storyId           Int              @map("story_id")
+  pageNumber        Int              @map("page_number")
+  content           String
+  createdAt         DateTime         @default(now()) @map("created_at")
+  updatedAt         DateTime         @default(now()) @updatedAt @map("updated_at")
+  contentHash       String?          @map("content_hash")
+  generatedImages   GeneratedImage[]
+  generatedSpeeches GeneratedSpeech[]
+  story             Story            @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  @@map("pages")
+}
+
+model Job {
+  id          Int       @id @default(autoincrement())
+  taskId      String    @unique @map("task_id")
+  type        JobType
+  status      JobStatus
+  storyId     Int?      @map("story_id")
+  pageId      Int?      @map("page_id")
+  metadata    Json      @default("{}")
+  error       String?
+  result      Json?     @default("{}")
+  createdAt   DateTime  @default(now()) @map("created_at")
+  updatedAt   DateTime  @default(now()) @updatedAt @map("updated_at")
+  completedAt DateTime? @map("completed_at")
+  duration    Float?
+  dependsOn   String[]  @default([]) @map("depends_on")
+  story       Story?    @relation(fields: [storyId], references: [id])
+
+  @@index([storyId])
+  @@index([type, status])
+  @@index([createdAt])
+  @@map("jobs")
+}
+
+model RequestLog {
+  id           Int      @id @default(autoincrement())
+  type         String
+  endpoint     String
+  method       String?
+  statusCode   Int?
+  requestMeta  Json     @default("{}")
+  responseBody Json?    @default("{}") 
+  error        Json?
+  metadata     Json     @default("{}")
+  createdAt    DateTime @default(now())
+  duration     Int?
+
+  @@index([statusCode])
+  @@index([createdAt])
+  @@map("request_logs")
+}
+
+model Provider {
+  id           Int                  @id @default(autoincrement())
+  code         String               @unique
+  name         String
+  description  String?
+  isActive     Boolean              @default(true)
+  apiKey       String?
+  apiEndpoint  String?
+  region       String?
+  config       Json?
+  createdAt    DateTime             @default(now()) @map("created_at")
+  updatedAt    DateTime             @default(now()) @updatedAt @map("updated_at")
+  capabilities ProviderCapability[]
+  voices       Voice[]
+
+  @@map("providers")
+}
+
+model ProviderCapability {
+  id            Int            @id @default(autoincrement())
+  providerId    Int            @map("provider_id")
+  type          CapabilityType
+  configOptions Json?
+  isDefault     Boolean        @default(false)
+  provider      Provider       @relation(fields: [providerId], references: [id], onDelete: Cascade)
+
+  @@unique([providerId, type])
+  @@map("provider_capabilities")
+}
+
+model Voice {
+  id              Int              @id @default(autoincrement())
+  providerId      Int              @map("provider_id")
+  name            String
+  voiceId         String           @map("voice_id")
+  languages       Json?            // Array of supported languages
+  gender          String?
+  style           String?
+  sampleRate      Int?             @map("sample_rate")
+  isDefault       Boolean          @default(false)
+  isActive        Boolean          @default(true)
+  createdAt       DateTime         @default(now()) @map("created_at")
+  updatedAt       DateTime         @default(now()) @updatedAt @map("updated_at")
+  provider        Provider         @relation(fields: [providerId], references: [id], onDelete: Cascade)
+
+  @@map("voices")
+}
+
+model GeneratedImage {
+  id        Int      @id @default(autoincrement())
+  pageId    Int      @map("page_id")
+  prompt    String?
+  status    String   @default("PENDING")
+  isDefault Boolean  @default(false) @map("is_default")
+  metadata  Json?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at")
+  path      String?  @map("path")
+  page      Page     @relation(fields: [pageId], references: [id], onDelete: Cascade)
+
+  @@index([pageId])
+  @@map("generated_images")
+}
+
+model GeneratedVideo {
+  id        Int      @id @default(autoincrement())
+  storyId   Int      @map("story_id")
+  title     String?
+  prompt    String?
+  duration  Float?
+  status    String   @default("PENDING")
+  isDefault Boolean  @default(false) @map("is_default")
+  metadata  Json?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at")
+  path      String?  @map("path")
+  story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  @@index([storyId])
+  @@map("generated_videos")
+}
+
+model GeneratedSpeech {
+  id        Int      @id @default(autoincrement())
+  pageId    Int      @map("page_id")
+  text      String
+  status    String   @default("PENDING")
+  isDefault Boolean  @default(false) @map("is_default")
+  metadata  Json?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @default(now()) @updatedAt @map("updated_at")
+  path      String?  @map("path")
+  page      Page     @relation(fields: [pageId], references: [id], onDelete: Cascade)
+
+  @@index([pageId])
+  @@map("generated_speeches")
+}
+
+model VideoLayout {
+  id        String   @id @default(cuid())
+  name      String
+  items     Json     // Stores the items array as JSON
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("video_layouts")
+}
+
+model settings {
+  id              Int      @id @default(autoincrement())
+  apiBaseUrl      String   @default("http://localhost:3000") @map("api_base_url")
+  useFakeProvider Boolean @default(true) @map("use_fake_provider")
+  theme           String   @default("light")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @default(now()) @updatedAt @map("updated_at")
+
+  @@map("settings")
+}
+
+enum CapabilityType {
+  TEXT_GENERATION
+  TEXT_TO_SPEECH
+  SPEECH_TO_TEXT
+  IMAGE_GENERATION
+  EMBEDDINGS
+}
+
+enum JobType {
+  STORY
+  PAGE
+  IMAGE
+  VIDEO
+  SPEECH
+}
+
+enum JobStatus {
+  PENDING
+  IN_PROGRESS
+  DONE
+  FAILED
+  SKIPPED
+}
+
+enum ApiEndpoint {
+  COMPLETION
+  IMAGE
+  EMBEDDING
+}
+
+enum ApiStatus {
+  SUCCESS
+  ERROR
+}

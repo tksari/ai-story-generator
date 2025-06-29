@@ -1,0 +1,2128 @@
+[
+  {
+    "name": "Katja",
+    "voiceId": "de-DE-KatjaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Conrad",
+    "voiceId": "de-DE-ConradNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Seraphina Multilingual",
+    "voiceId": "de-DE-SeraphinaMultilingualNeural",
+    "languages": [
+      "de-DE",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Florian Multilingual",
+    "voiceId": "de-DE-FlorianMultilingualNeural",
+    "languages": [
+      "de-DE",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Amala",
+    "voiceId": "de-DE-AmalaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Bernd",
+    "voiceId": "de-DE-BerndNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Christoph",
+    "voiceId": "de-DE-ChristophNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Elke",
+    "voiceId": "de-DE-ElkeNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Gisela",
+    "voiceId": "de-DE-GiselaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Kasper",
+    "voiceId": "de-DE-KasperNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Killian",
+    "voiceId": "de-DE-KillianNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Klarissa",
+    "voiceId": "de-DE-KlarissaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Klaus",
+    "voiceId": "de-DE-KlausNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Louisa",
+    "voiceId": "de-DE-LouisaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Maja",
+    "voiceId": "de-DE-MajaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ralf",
+    "voiceId": "de-DE-RalfNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Tanja",
+    "voiceId": "de-DE-TanjaNeural",
+    "languages": ["de-DE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Florian Dragon HD Latest",
+    "voiceId": "de-DE-Florian:DragonHDLatestNeural",
+    "languages": [
+      "de-DE",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Seraphina Dragon HD Latest",
+    "voiceId": "de-DE-Seraphina:DragonHDLatestNeural",
+    "languages": [
+      "de-DE",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Sonia",
+    "voiceId": "en-GB-SoniaNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female",
+    "isDefault": true
+  },
+  {
+    "name": "Ryan",
+    "voiceId": "en-GB-RyanNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Libby",
+    "voiceId": "en-GB-LibbyNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ada Multilingual",
+    "voiceId": "en-GB-AdaMultilingualNeural",
+    "languages": [
+      "en-GB",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ollie Multilingual",
+    "voiceId": "en-GB-OllieMultilingualNeural",
+    "languages": [
+      "en-GB",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Abbi",
+    "voiceId": "en-GB-AbbiNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Alfie",
+    "voiceId": "en-GB-AlfieNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Bella",
+    "voiceId": "en-GB-BellaNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Elliot",
+    "voiceId": "en-GB-ElliotNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ethan",
+    "voiceId": "en-GB-EthanNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Hollie",
+    "voiceId": "en-GB-HollieNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Maisie",
+    "voiceId": "en-GB-MaisieNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Noah",
+    "voiceId": "en-GB-NoahNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Oliver",
+    "voiceId": "en-GB-OliverNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Olivia",
+    "voiceId": "en-GB-OliviaNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Thomas",
+    "voiceId": "en-GB-ThomasNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Mia",
+    "voiceId": "en-GB-MiaNeural",
+    "languages": ["en-GB"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ava Multilingual",
+    "voiceId": "en-US-AvaMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Andrew Multilingual",
+    "voiceId": "en-US-AndrewMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Emma Multilingual",
+    "voiceId": "en-US-EmmaMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Alloy Turbo Multilingual",
+    "voiceId": "en-US-AlloyTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Echo Turbo Multilingual",
+    "voiceId": "en-US-EchoTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Fable Turbo Multilingual",
+    "voiceId": "en-US-FableTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Neutral"
+  },
+  {
+    "name": "Onyx Turbo Multilingual",
+    "voiceId": "en-US-OnyxTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Nova Turbo Multilingual",
+    "voiceId": "en-US-NovaTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Shimmer Turbo Multilingual",
+    "voiceId": "en-US-ShimmerTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Brian Multilingual",
+    "voiceId": "en-US-BrianMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ava",
+    "voiceId": "en-US-AvaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Andrew",
+    "voiceId": "en-US-AndrewNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Emma",
+    "voiceId": "en-US-EmmaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Brian",
+    "voiceId": "en-US-BrianNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Jenny",
+    "voiceId": "en-US-JennyNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Guy",
+    "voiceId": "en-US-GuyNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Aria",
+    "voiceId": "en-US-AriaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Davis",
+    "voiceId": "en-US-DavisNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Jane",
+    "voiceId": "en-US-JaneNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Jason",
+    "voiceId": "en-US-JasonNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Kai",
+    "voiceId": "en-US-KaiNeural",
+    "languages": ["en-US"],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Luna",
+    "voiceId": "en-US-LunaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Sara",
+    "voiceId": "en-US-SaraNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Tony",
+    "voiceId": "en-US-TonyNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Nancy",
+    "voiceId": "en-US-NancyNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Cora Multilingual",
+    "voiceId": "en-US-CoraMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Christopher Multilingual",
+    "voiceId": "en-US-ChristopherMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Brandon Multilingual",
+    "voiceId": "en-US-BrandonMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Amber",
+    "voiceId": "en-US-AmberNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ana",
+    "voiceId": "en-US-AnaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ashley",
+    "voiceId": "en-US-AshleyNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Brandon",
+    "voiceId": "en-US-BrandonNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Christopher",
+    "voiceId": "en-US-ChristopherNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Cora",
+    "voiceId": "en-US-CoraNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Elizabeth",
+    "voiceId": "en-US-ElizabethNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Eric",
+    "voiceId": "en-US-EricNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Jacob",
+    "voiceId": "en-US-JacobNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Jenny Multilingual",
+    "voiceId": "en-US-JennyMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Michelle",
+    "voiceId": "en-US-MichelleNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Monica",
+    "voiceId": "en-US-MonicaNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Roger",
+    "voiceId": "en-US-RogerNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ryan Multilingual",
+    "voiceId": "en-US-RyanMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Steffan",
+    "voiceId": "en-US-SteffanNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Adam Multilingual",
+    "voiceId": "en-US-AdamMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "AIGenerate1",
+    "voiceId": "en-US-AIGenerate1Neural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "AIGenerate2",
+    "voiceId": "en-US-AIGenerate2Neural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Amanda Multilingual",
+    "voiceId": "en-US-AmandaMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ash Turbo Multilingual",
+    "voiceId": "en-US-AshTurboMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Blue",
+    "voiceId": "en-US-BlueNeural",
+    "languages": ["en-US"],
+    "sampleRate": "48000",
+    "gender": "Neutral"
+  },
+  {
+    "name": "Davis Multilingual",
+    "voiceId": "en-US-DavisMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Derek Multilingual",
+    "voiceId": "en-US-DerekMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Dustin Multilingual",
+    "voiceId": "en-US-DustinMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Evelyn Multilingual",
+    "voiceId": "en-US-EvelynMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Lewis Multilingual",
+    "voiceId": "en-US-LewisMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Lola Multilingual",
+    "voiceId": "en-US-LolaMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Nancy Multilingual",
+    "voiceId": "en-US-NancyMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Phoebe Multilingual",
+    "voiceId": "en-US-PhoebeMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Samuel Multilingual",
+    "voiceId": "en-US-SamuelMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Serena Multilingual",
+    "voiceId": "en-US-SerenaMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Steffan Multilingual",
+    "voiceId": "en-US-SteffanMultilingualNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Adam Dragon HD Latest",
+    "voiceId": "en-US-Adam:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Andrew Dragon HD Latest",
+    "voiceId": "en-US-Andrew:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Andrew2 Dragon HD Latest",
+    "voiceId": "en-US-Andrew2:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ava Dragon HD Latest",
+    "voiceId": "en-US-Ava:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Brian Dragon HD Latest",
+    "voiceId": "en-US-Brian:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Davis Dragon HD Latest",
+    "voiceId": "en-US-Davis:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Emma Dragon HD Latest",
+    "voiceId": "en-US-Emma:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Emma2 Dragon HD Latest",
+    "voiceId": "en-US-Emma2:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Steffan Dragon HD Latest",
+    "voiceId": "en-US-Steffan:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Alloy Dragon HD Latest",
+    "voiceId": "en-US-Alloy:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Andrew3 Dragon HD Latest",
+    "voiceId": "en-US-Andrew3:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Aria Dragon HD Latest",
+    "voiceId": "en-US-Aria:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ava3 Dragon HD Latest",
+    "voiceId": "en-US-Ava3:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Bree Dragon HD Latest",
+    "voiceId": "en-US-Bree:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Jenny Dragon HD Latest",
+    "voiceId": "en-US-Jenny:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "MultiTalker Dragon HD Latest",
+    "voiceId": "en-US-MultiTalker-Ava-Andrew:DragonHDLatestNeural",
+    "languages": ["en-US"],
+    "sampleRate": "24000",
+    "gender": "Neutral"
+  },
+  {
+    "name": "MultiTalker Dragon HD Latest",
+    "voiceId": "en-US-MultiTalker-Ava-Steffan:DragonHDLatestNeural",
+    "languages": ["en-US"],
+    "sampleRate": "24000",
+    "gender": "Neutral"
+  },
+  {
+    "name": "Nova Dragon HD Latest",
+    "voiceId": "en-US-Nova:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Phoebe Dragon HD Latest",
+    "voiceId": "en-US-Phoebe:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Serena Dragon HD Latest",
+    "voiceId": "en-US-Serena:DragonHDLatestNeural",
+    "languages": [
+      "en-US",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Elvira",
+    "voiceId": "es-ES-ElviraNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Alvaro",
+    "voiceId": "es-ES-AlvaroNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Arabella Multilingual",
+    "voiceId": "es-ES-ArabellaMultilingualNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Isidora Multilingual",
+    "voiceId": "es-ES-IsidoraMultilingualNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Tristan Multilingual",
+    "voiceId": "es-ES-TristanMultilingualNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ximena Multilingual",
+    "voiceId": "es-ES-XimenaMultilingualNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Abril",
+    "voiceId": "es-ES-AbrilNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Arnau",
+    "voiceId": "es-ES-ArnauNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Dario",
+    "voiceId": "es-ES-DarioNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Elias",
+    "voiceId": "es-ES-EliasNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Estrella",
+    "voiceId": "es-ES-EstrellaNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Irene",
+    "voiceId": "es-ES-IreneNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Laia",
+    "voiceId": "es-ES-LaiaNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Lia",
+    "voiceId": "es-ES-LiaNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Nil",
+    "voiceId": "es-ES-NilNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Saul",
+    "voiceId": "es-ES-SaulNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Teo",
+    "voiceId": "es-ES-TeoNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Triana",
+    "voiceId": "es-ES-TrianaNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Vera",
+    "voiceId": "es-ES-VeraNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ximena",
+    "voiceId": "es-ES-XimenaNeural",
+    "languages": ["es-ES"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Tristan Dragon HD Latest",
+    "voiceId": "es-ES-Tristan:DragonHDLatestNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Ximena Dragon HD Latest",
+    "voiceId": "es-ES-Ximena:DragonHDLatestNeural",
+    "languages": [
+      "es-ES",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Denise",
+    "voiceId": "fr-FR-DeniseNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Henri",
+    "voiceId": "fr-FR-HenriNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Vivienne Multilingual",
+    "voiceId": "fr-FR-VivienneMultilingualNeural",
+    "languages": [
+      "fr-FR",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Remy Multilingual",
+    "voiceId": "fr-FR-RemyMultilingualNeural",
+    "languages": [
+      "fr-FR",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Lucien Multilingual",
+    "voiceId": "fr-FR-LucienMultilingualNeural",
+    "languages": [
+      "fr-FR",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Alain",
+    "voiceId": "fr-FR-AlainNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Brigitte",
+    "voiceId": "fr-FR-BrigitteNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Celeste",
+    "voiceId": "fr-FR-CelesteNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Claude",
+    "voiceId": "fr-FR-ClaudeNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Coralie",
+    "voiceId": "fr-FR-CoralieNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Eloise",
+    "voiceId": "fr-FR-EloiseNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Jacqueline",
+    "voiceId": "fr-FR-JacquelineNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Jerome",
+    "voiceId": "fr-FR-JeromeNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Josephine",
+    "voiceId": "fr-FR-JosephineNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Maurice",
+    "voiceId": "fr-FR-MauriceNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Yves",
+    "voiceId": "fr-FR-YvesNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Yvette",
+    "voiceId": "fr-FR-YvetteNeural",
+    "languages": ["fr-FR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Remy Dragon HD Latest",
+    "voiceId": "fr-FR-Remy:DragonHDLatestNeural",
+    "languages": [
+      "fr-FR",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Vivienne Dragon HD Latest",
+    "voiceId": "fr-FR-Vivienne:DragonHDLatestNeural",
+    "languages": [
+      "fr-FR",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Elsa",
+    "voiceId": "it-IT-ElsaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Isabella",
+    "voiceId": "it-IT-IsabellaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Diego",
+    "voiceId": "it-IT-DiegoNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Alessio Multilingual",
+    "voiceId": "it-IT-AlessioMultilingualNeural",
+    "languages": [
+      "it-IT",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Isabella Multilingual",
+    "voiceId": "it-IT-IsabellaMultilingualNeural",
+    "languages": [
+      "it-IT",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Female"
+  },
+  {
+    "name": "Giuseppe Multilingual",
+    "voiceId": "it-IT-GiuseppeMultilingualNeural",
+    "languages": [
+      "it-IT",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Marcello Multilingual",
+    "voiceId": "it-IT-MarcelloMultilingualNeural",
+    "languages": [
+      "it-IT",
+      "de-DE",
+      "en-GB",
+      "en-US",
+      "es-ES",
+      "fr-FR",
+      "it-IT",
+      "nl-BE",
+      "nl-NL",
+      "pt-PT",
+      "tr-TR"
+    ],
+    "sampleRate": "24000",
+    "gender": "Male"
+  },
+  {
+    "name": "Benigno",
+    "voiceId": "it-IT-BenignoNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Calimero",
+    "voiceId": "it-IT-CalimeroNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Cataldo",
+    "voiceId": "it-IT-CataldoNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Fabiola",
+    "voiceId": "it-IT-FabiolaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Fiamma",
+    "voiceId": "it-IT-FiammaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Gianni",
+    "voiceId": "it-IT-GianniNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Giuseppe",
+    "voiceId": "it-IT-GiuseppeNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Imelda",
+    "voiceId": "it-IT-ImeldaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Irma",
+    "voiceId": "it-IT-IrmaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Lisandro",
+    "voiceId": "it-IT-LisandroNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Palmira",
+    "voiceId": "it-IT-PalmiraNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Pierina",
+    "voiceId": "it-IT-PierinaNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Rinaldo",
+    "voiceId": "it-IT-RinaldoNeural",
+    "languages": ["it-IT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Dena",
+    "voiceId": "nl-BE-DenaNeural",
+    "languages": ["nl-BE"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Arnaud",
+    "voiceId": "nl-BE-ArnaudNeural",
+    "languages": ["nl-BE"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Fenna",
+    "voiceId": "nl-NL-FennaNeural",
+    "languages": ["nl-NL"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Maarten",
+    "voiceId": "nl-NL-MaartenNeural",
+    "languages": ["nl-NL"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Colette",
+    "voiceId": "nl-NL-ColetteNeural",
+    "languages": ["nl-NL"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Raquel",
+    "voiceId": "pt-PT-RaquelNeural",
+    "languages": ["pt-PT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Duarte",
+    "voiceId": "pt-PT-DuarteNeural",
+    "languages": ["pt-PT"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  },
+  {
+    "name": "Fernanda",
+    "voiceId": "pt-PT-FernandaNeural",
+    "languages": ["pt-PT"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Emel",
+    "voiceId": "tr-TR-EmelNeural",
+    "languages": ["tr-TR"],
+    "sampleRate": "48000",
+    "gender": "Female"
+  },
+  {
+    "name": "Ahmet",
+    "voiceId": "tr-TR-AhmetNeural",
+    "languages": ["tr-TR"],
+    "sampleRate": "48000",
+    "gender": "Male"
+  }
+]

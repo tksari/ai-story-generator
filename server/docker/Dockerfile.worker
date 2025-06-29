@@ -1,0 +1,46 @@
+FROM node:20-bookworm
+
+RUN apt-get update && apt-get install -y \
+  build-essential \
+  libcairo2-dev \
+  libpango1.0-dev \
+  libpangocairo-1.0-0 \
+  libjpeg-dev \
+  libgif-dev \
+  librsvg2-dev \
+  libpixman-1-dev \
+  libpng-dev \
+  pkg-config \
+  python3 \
+  python-is-python3 \
+  g++ \
+  make \
+  curl \
+  bzip2 \
+  yasm \
+  libx264-dev \
+  libx265-dev \
+  libvpx-dev \
+  libmp3lame-dev \
+  libopus-dev \
+  libfreetype6-dev \
+  libfontconfig1-dev \
+  libfribidi-dev \
+  libharfbuzz-dev && \
+  rm -rf /var/lib/apt/lists/*
+
+RUN curl -LO https://ffmpeg.org/releases/ffmpeg-7.1.1.tar.xz && \
+  tar -xf ffmpeg-7.1.1.tar.xz && \
+  cd ffmpeg-7.1.1 && \
+  ./configure --prefix=/usr/local \
+    --enable-gpl --enable-nonfree \
+    --enable-libx264 --enable-libx265 --enable-libvpx \
+    --enable-libmp3lame --enable-libopus \
+    --enable-libfreetype --enable-libfontconfig \
+    --enable-libfribidi --enable-libharfbuzz && \
+  make -j$(nproc) && make install && \
+  cd .. && rm -rf ffmpeg-7.1.1 ffmpeg-7.1.1.tar.xz
+
+WORKDIR /app
+
+CMD ["sh", "scripts/start-worker.sh"]

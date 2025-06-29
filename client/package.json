@@ -1,0 +1,38 @@
+{
+  "name": "ai-story-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI Story Frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@monaco-editor/loader": "^1.5.0",
+    "@types/sortablejs": "^1.15.8",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.9.0",
+    "element-plus": "^2.9.9",
+    "monaco-editor": "^0.52.2",
+    "pinia": "^3.0.2",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-vue-devtools": "^7.7.6",
+    "vue-tsc": "^2.2.8"
+  }
+}

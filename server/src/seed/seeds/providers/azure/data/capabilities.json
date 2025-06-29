@@ -1,0 +1,9 @@
+[
+  {
+    "type": "TEXT_TO_SPEECH",
+    "configOptions": {
+      "quality": "high"
+    },
+    "isDefault": true
+  }
+]

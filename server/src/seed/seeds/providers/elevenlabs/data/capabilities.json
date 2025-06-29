@@ -1,0 +1,11 @@
+[
+  {
+    "type": "TEXT_TO_SPEECH",
+    "configOptions": {
+      "modelId": "eleven_multilingual_v2",
+      "quality": "high",
+      "apiSuffix": "text-to-speech"
+    },
+    "isDefault": false
+  }
+]

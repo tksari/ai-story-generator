@@ -1,0 +1,408 @@
+{
+  "info": {
+    "name": "AI Story API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "baseUrl", "value": "http://localhost:3000" }],
+  "item": [
+    {
+      "name": "Stories",
+      "item": [
+        {
+          "name": "List Stories",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/stories" }
+        },
+        {
+          "name": "Get Story",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/stories/:id" }
+        },
+        {
+          "name": "Create Story",
+          "request": { "method": "POST", "url": "{{baseUrl}}/api/stories" }
+        },
+        {
+          "name": "Update Story",
+          "request": { "method": "PUT", "url": "{{baseUrl}}/api/stories/:id" }
+        },
+        {
+          "name": "Delete Story",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/stories/:id"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pages",
+      "item": [
+        {
+          "name": "Get Page",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/pages/:id" }
+        },
+        {
+          "name": "Create Page",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/stories/:storyId/pages"
+          }
+        },
+        {
+          "name": "Update Page",
+          "request": { "method": "PUT", "url": "{{baseUrl}}/api/pages/:id" }
+        },
+        {
+          "name": "Delete Page",
+          "request": { "method": "DELETE", "url": "{{baseUrl}}/api/pages/:id" }
+        },
+        {
+          "name": "Delete Story Pages",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/stories/:storyId/pages"
+          }
+        },
+        {
+          "name": "List Story Pages",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/stories/:storyId/pages"
+          }
+        },
+        {
+          "name": "Update Page Order",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/api/pages/:pageId/order"
+          }
+        },
+        {
+          "name": "Generate Pages",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/stories/:id/pages/generate"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Generated Images",
+      "item": [
+        {
+          "name": "Set Default Image",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-images/:imageId/default"
+          }
+        },
+        {
+          "name": "Delete Image",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/generated-images/:imageId"
+          }
+        },
+        {
+          "name": "Generate Image",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-images/generate"
+          }
+        },
+        {
+          "name": "Generate Images Bulk",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-images/generate-bulk"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Generated Videos",
+      "item": [
+        {
+          "name": "Delete Video",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/generated-videos/:id"
+          }
+        },
+        {
+          "name": "Generate Video",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-videos/generate"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Generated Speeches",
+      "item": [
+        {
+          "name": "Get Speech",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/generated-speeches/:id"
+          }
+        },
+        {
+          "name": "Set Default Speech",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-speeches/:id/default"
+          }
+        },
+        {
+          "name": "Delete Speech",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/generated-speeches/:id"
+          }
+        },
+        {
+          "name": "Generate Speech",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-speeches/generate"
+          }
+        },
+        {
+          "name": "Generate Speech Bulk",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/generated-speeches/generate-bulk"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jobs",
+      "item": [
+        {
+          "name": "List Jobs",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/jobs" }
+        },
+        {
+          "name": "Get Active Job",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/jobs/active" }
+        },
+        {
+          "name": "Get Job",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/jobs/:taskId" }
+        },
+        {
+          "name": "Delete Job",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/jobs/:taskId"
+          }
+        },
+        {
+          "name": "Delete Jobs by Story",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/jobs/story/:storyId"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Providers",
+      "item": [
+        {
+          "name": "List Providers",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/providers" }
+        },
+        {
+          "name": "Create Provider",
+          "request": { "method": "POST", "url": "{{baseUrl}}/api/providers" }
+        },
+        {
+          "name": "Get Provider",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/providers/:id" }
+        },
+        {
+          "name": "Update Provider",
+          "request": { "method": "PUT", "url": "{{baseUrl}}/api/providers/:id" }
+        },
+        {
+          "name": "Delete Provider",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/providers/:id"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Capabilities",
+      "item": [
+        {
+          "name": "Update Capability",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/api/capabilities/:id"
+          }
+        },
+        {
+          "name": "Delete Capability",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/capabilities/:id"
+          }
+        },
+        {
+          "name": "List Provider Capabilities",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/providers/:providerId/capabilities"
+          }
+        },
+        {
+          "name": "Create Provider Capability",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/providers/:providerId/capabilities"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Voices",
+      "item": [
+        {
+          "name": "Get Voice",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/voices/:id" }
+        },
+        {
+          "name": "Update Voice",
+          "request": { "method": "PUT", "url": "{{baseUrl}}/api/voices/:id" }
+        },
+        {
+          "name": "Delete Voice",
+          "request": { "method": "DELETE", "url": "{{baseUrl}}/api/voices/:id" }
+        },
+        {
+          "name": "Set Default Voice",
+          "request": {
+            "method": "PATCH",
+            "url": "{{baseUrl}}/api/voices/:id/set-default"
+          }
+        },
+        {
+          "name": "List Provider Voices",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/providers/:providerId/voices"
+          }
+        },
+        {
+          "name": "Create Provider Voices",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/providers/:providerId/voices"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "item": [
+        {
+          "name": "Get Media",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/media/{{path}}"
+          }
+        },
+        {
+          "name": "Delete Media",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/media/{{path}}"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "item": [
+        {
+          "name": "Get Settings",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/settings" }
+        },
+        {
+          "name": "Update Settings",
+          "request": { "method": "PUT", "url": "{{baseUrl}}/api/settings" }
+        }
+      ]
+    },
+    {
+      "name": "Video Layouts",
+      "item": [
+        {
+          "name": "Get Layout",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/video-layouts/:id"
+          }
+        },
+        {
+          "name": "Create Layout",
+          "request": {
+            "method": "POST",
+            "url": "{{baseUrl}}/api/video-layouts"
+          }
+        },
+        {
+          "name": "Update Layout",
+          "request": {
+            "method": "PUT",
+            "url": "{{baseUrl}}/api/video-layouts/:id"
+          }
+        },
+        {
+          "name": "Delete Layout",
+          "request": {
+            "method": "DELETE",
+            "url": "{{baseUrl}}/api/video-layouts/:id"
+          }
+        },
+        {
+          "name": "List Layouts",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/video-layouts" }
+        },
+        {
+          "name": "Load Default Layout",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/video-layouts/load"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "item": [
+        {
+          "name": "Get Stats",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/api/dashboard/stats"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Generation Options",
+      "item": [
+        {
+          "name": "Story Options",
+          "request": { "method": "GET", "url": "{{baseUrl}}/api/options/story" }
+        }
+      ]
+    }
+  ]
+}

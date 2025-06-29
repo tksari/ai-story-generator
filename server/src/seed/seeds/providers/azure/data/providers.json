@@ -1,0 +1,10 @@
+{
+  "code": "azure",
+  "name": "Microsoft Speech Studio",
+  "description": "Text-to-Speech service powered by Microsoft Azure Cognitive Services.",
+  "isActive": true,
+  "apiKey": "00000000000000000000000000000000",
+  "apiEndpoint": "tts.speech.microsoft.com/cognitiveservices/v1",
+  "region": "eastus",
+  "config": {}
+}

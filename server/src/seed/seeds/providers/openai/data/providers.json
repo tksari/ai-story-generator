@@ -1,0 +1,10 @@
+{
+  "code": "openai",
+  "name": "Open AI",
+  "description": "",
+  "isActive": true,
+  "apiKey": "00000000000000000000000000000000",
+  "apiEndpoint": "",
+  "region": "",
+  "config": {}
+}

@@ -1,0 +1,16 @@
+export const EVENT_CHANNELS = {
+  JOB: "JOB",
+  STORY: "STORY",
+  SPEECH: "SPEECH",
+  IMAGE: "IMAGE",
+  VIDEO: "VIDEO",
+  PAGE: "PAGE",
+};
+
+export const EVENT_SUFFIXES = {
+  PENDING: "PENDING",
+  IN_PROGRESS: "IN_PROGRESS",
+  DONE: "DONE",
+  FAILED: "FAILED",
+  SKIPPED: "SKIPPED",
+};

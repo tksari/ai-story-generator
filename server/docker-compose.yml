@@ -1,0 +1,153 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: ai-content-api
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - ./storage:/app/storage
+      - app-node-modules:/app/node_modules
+    depends_on:
+      - postgres
+      - rabbitmq
+      - redis
+    networks:
+      - app-network
+
+  story-pages-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    container_name: ai-content-story-pages-worker
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - WORKER_TYPE=story-pages
+    volumes:
+      - .:/app
+      - app-node-modules:/app/node_modules
+    depends_on:
+      - api
+      - rabbitmq
+      - postgres
+      - redis
+    networks:
+      - app-network
+
+  video-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    container_name: ai-content-video-worker
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - WORKER_TYPE=video
+    volumes:
+      - .:/app
+      - app-node-modules:/app/node_modules
+    depends_on:
+      - api
+      - rabbitmq
+      - postgres
+      - redis
+    networks:
+      - app-network
+
+  image-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    container_name: ai-content-image-worker
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - WORKER_TYPE=image
+    volumes:
+      - .:/app
+      - app-node-modules:/app/node_modules
+    depends_on:
+      - api
+      - rabbitmq
+      - postgres
+      - redis
+    networks:
+      - app-network
+
+  speech-worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.worker
+    container_name: ai-content-speech-worker
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - WORKER_TYPE=speech
+    volumes:
+      - .:/app
+      - app-node-modules:/app/node_modules
+    depends_on:
+      - api
+      - rabbitmq
+      - postgres
+      - redis
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: ai_story_postgres
+    env_file:
+      - .env
+    ports:
+      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  redis:
+    image: redis:7-alpine
+    container_name: ai_story-redis
+    restart: always
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - app-network
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: ai_story_rabbitmq
+    ports:
+      - "${RABBITMQ_PORT:-5672}:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USERNAME}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq/
+    networks:
+      - app-network
+
+volumes:
+  postgres_data:
+  rabbitmq_data:
+  redis_data:
+  app-node-modules:
+
+networks:
+  app-network:
+    driver: bridge
